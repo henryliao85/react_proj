@@ -1,0 +1,240 @@
+.App{
+    background-color: #031a1a;
+}
+  
+body{
+    background-color: #031a1a;
+}
+  
+.content{
+    background-color: #031a1a;
+}
+
+.homepage-syllabus{
+    background-image: url("/pic/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    min-width: 800px;
+    min-height: 400px;
+}
+
+.cards{
+    width: 80% !important;
+    min-width: 1200px;
+}
+  
+.title_style{
+    color: #D3DFE1;
+    text-decoration: underline !important;
+}
+
+.min-width{
+    min-width: 1200px;
+}
+
+.footer-title{
+    color: #D3DFE1;
+}
+
+.card_image{
+    display: block;
+    max-width:280px;
+    max-height:280px;
+    width: auto;
+    height: auto;
+}
+
+.namelist-table {
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.namelist-table .namelist-item {
+    background-color: #616161;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+}
+  
+.namelist-table li.namelist-item:hover {
+    background-color: rgba(176, 175, 175, 0.63);
+}
+  
+.namelist-name{
+    color: #fff;
+    font-size: large;
+}
+
+.namelist-email{
+    color: #fff;
+    margin-left: 0.5rem;
+    font-size: medium;
+    font-style: italic;
+}
+
+.tab-title{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #b6c3c7;
+}
+
+.title-name{
+    position: absolute;
+    top: 0%;
+    font-weight: 500 !important;
+}
+
+.titlesec{
+    min-width: 360px;
+}
+
+.home_title{
+    color: #e1fbff  !important;
+    font-size: 30px;
+    font-weight: 380;
+    text-decoration: underline !important;
+}
+
+.collection .collection-item {
+    background-color: #1f2222 !important;
+    color: #e1f8fc !important;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+}
+  
+.collection a.collection-item {
+    display: block;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+  
+.collection a.collection-item:not(.active):hover {
+    background-color: #c8f6fe !important;
+    color: #1f2222 !important;
+}
+
+.home_list{
+    border: none !important; 
+    opacity: 0.65   !important;
+    border-radius:3px !important;
+}
+
+#footer-style{
+    background-color: #091f23c4 !important;
+}
+
+#copyright{
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 1.5%;
+}
+
+#title-text {
+    color: #C5A16B !important;
+}
+  
+#card-cv{
+    color: #b0dfe7 !important;
+}
+
+.home_list{
+    border: none !important; 
+    opacity: 0.65   !important;
+    border-radius:3px !important;
+}
+
+.lists{
+    width: 90%;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.list_title{
+    text-decoration: underline !important; 
+  
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  
+    max-width: 400px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  
+    display:inline-block;
+    white-space: nowrap;
+  
+    float: left;
+}
+
+.list_date{
+    font-style: italic !important;
+    font-size: 12px !important;
+  
+    float: center;
+}
+
+@media only screen and (max-width: 1350px) {
+    .list_title{
+      text-decoration: underline !important; 
+    
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    
+      max-width: 350px !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+      position: center !important;
+    
+      display:inline-block;
+      white-space: nowrap;
+  
+      float: left;
+    }
+  
+    .list_date{
+      font-style: italic !important;
+      font-size: 12px !important;
+  
+      float: center;
+    }
+}
+  
+@media only screen and (max-width: 1260px) {
+    .list_title{
+      text-decoration: underline !important; 
+    
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    
+      max-width: 320px !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+      position: center !important;
+    
+      display:inline-block;
+      white-space: nowrap;
+  
+      float: left;
+    }
+  
+    .list_date{
+      font-style: italic !important;
+      font-size: 12px !important;
+  
+      float: center;
+    }
+}
+
+.pages-block{
+    background-color: #424242 !important;
+    min-width: 1000px;
+    width: 85%;
+    border-radius: 4px;
+}
+  
